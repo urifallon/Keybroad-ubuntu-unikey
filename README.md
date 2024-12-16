@@ -1,34 +1,34 @@
 # Keybroad-ubuntu-unikey
 Hướng Dẫn Cài Đặt Unikey Trên Ubuntu
 
-## Cap nhat ubuntu
+## Cập nhật Ubuntu
 ```
 sudo apt-get update && upgrade
 ```
-![Icon](./icon/icon-warning.png) <span style="color: #CECC8C; font-weight: bold;">ban can nhap mat khau o che do root (sudo)</span>
+![Icon](./icon/icon-warning.png) <span style="color: #CECC8C; font-weight: bold;">Bạn cần nhập mật khẩu khi sử dụng câu lệnh ở chế độ root (sudo)</span>
 
 
-## Cai dat ibus-unikey
-### 1. su dung cau lenh phia duoi de cai dat wibus-unikey
+## Cài đặt ibus-unikey
+### 1. Sử dụng câu lệnh sau để cài đặt ibus-unikey
 ```
 sudo apt-get install ibus-unikey
 ```
-### 2. kiem tra ibus-unikey da duoc cai dat thanh cong
+### 2. Kiểm tra ibus-unikey đã được cài đặt thành công
 ```
 ibus version
 ```
-### 3. hinh anh khi cai dat thanh cong
+### 3. Cài đặt thành công
 
 ![Alt text](./img/ibus-check.png)
 
-### 4. khoi dong lai may
+### 4. Khởi động lại máy
 ```
 sudo reboot
 ```
-![Icon](./icon/icon-warning.png) <span style="color: #CECC8C; font-weight: bold;">cau lenh nay se khoi dong lai may, hay luu cac thong tin quang trong truoc khi thuc hien</span>
+![Icon](./icon/icon-warning.png) <span style="color: #CECC8C; font-weight: bold;">Câu lệnh này sẽ khởi động lại máy, hãy lưu các dữ liệu quan trọng trước khi thực hiện !!!</span>
 
-## Cai dat unikey
-### 1. kiem tra unikey va chon
+## Cài đặt Unikey
+### 1. Kiểm tra và chọn Unikey
 
 Setting &#8594; Keyboard &#8594; Input Source &#8594; ⋮ &#8594; Other &#8594; Vietnamese (unikey) &#8594; Add
 
@@ -36,8 +36,13 @@ Setting &#8594; Keyboard &#8594; Input Source &#8594; ⋮ &#8594; Other &#8594; 
 ![Alt text](./img/setUnikey1.png)
 ![Alt text](./img/setUnikey2.png)
 
-### 2. cau hinh ibus
+### 2. Cấu hình Ibus
 
-Language Support &#8594; Keyboard input method system -> Ibus
+Language Support &#8594; Keyboard input method system &#8594; Ibus &#8594; Close 
 
-![Alt text](./img/ibus-check.png)
+![Alt text](./img/setIbus.png)
+![Alt text](./img/setIbus1.png)
+![Alt text](./img/setIbus2.png)
+
+---
+![Icon](./icon/icon-check.png) <span style="color: green; font-weight: bold;"> Bạn đã cài đặt thành công Unikey !</span>
